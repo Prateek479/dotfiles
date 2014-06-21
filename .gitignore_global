@@ -1,0 +1,58 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/*settings*.php
+*.patch
+*.project
+*.svn
+robots.txt
+# Ignore paths that contain generated content.
+cache/
+sites/*/files
+sites/*/private
+
+# Ignore default text files
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/INSTALL*.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/UPGRADE.txt
+/README.txt’
+
+
+sites/all/README.txt
+sites/all/modules/README.txt
+sites/all/themes/README.txt
+
+# Ignore everything but the "sites" folder ( for non core developer )
+.htaccess
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
